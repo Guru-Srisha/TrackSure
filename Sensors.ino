@@ -1,5 +1,5 @@
-#define BLYNK_TEMPLATE_NAME "glitch"
-#define BLYNK_TEMPLATE_ID "TMPL3Y_pQKkiI"
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_TEMPLATE_ID ""
 
 #include <HX711.h>
 #include <SoftwareSerial.h>
@@ -13,9 +13,9 @@
 HX711 scale;
 
 // Wifi credentials
-char ssid[] = "Glyph";
-char pass[] = "23456789";
-char auth[] = "SSnMPLcbfUfYO1EEf2YRKDBMuYzHorOB";
+char ssid[] = "";
+char pass[] = "";
+char auth[] = "";
 
 SoftwareSerial gpsSerial(4, 5); // D2 Rx, D1 Tx
 String gpsData = "";
