@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3fBNVnVCk"
-#define BLYNK_TEMPLATE_NAME "assburner abhivridhi"
-#define BLYNK_AUTH_TOKEN "B-wM74ihU28jvCEuY3rNpY0ntOyoDWJm" 
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN "" 
 
 #include <SPI.h>
 #include <MFRC522.h>
@@ -14,13 +14,13 @@
 MFRC522 rfid(SS_PIN, RST_PIN);
 
 // Wi-Fi credentials
-char ssid[] = "Glyph";
-char pass[] = "23456789";
+char ssid[] = "";
+char pass[] = "";
 
 #define VIRTUAL_PIN V0
 
 //UID
-String predefinedUID = "F22BA49";
+String predefinedUID = "";
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
